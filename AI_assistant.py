@@ -28,7 +28,7 @@ def wishMe():
     else:
         speak("Good Evening!")
 
-    speak("I am Jarvis Sir. Please tell me how may I help you")
+    speak("I am alis Sir. Please tell me how may I help you")
 
 
 def takeCommand():
@@ -86,7 +86,7 @@ if __name__ == "__main__":
             webbrowser.open("stackoverflow.com")
 
         elif 'play music' in query:
-            music_dir = 'D:\\MUSIC'
+            music_dir = 'music Dir'
             songs = os.listdir(music_dir)
             print(songs)
             os.startfile(os.path.join(music_dir, songs[0]))
@@ -96,7 +96,7 @@ if __name__ == "__main__":
             speak(f"Sir, The time is {strTime}")
 
         elif 'open code' in query:
-            codePath = "C:\\Users\\pranj\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            codePath = ".code Path"
             os.startfile(codePath)
 
         elif 'email to harry' in query:
