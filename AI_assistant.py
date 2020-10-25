@@ -32,7 +32,7 @@ def wishMe():
 
 
 def takeCommand():
-    #It takes microphone input from the user and returns string output
+    # It takes microphone input from the user and returns string output
 
     r = sr.Recognizer()
     with sr.Microphone() as source:
@@ -99,7 +99,7 @@ if __name__ == "__main__":
             codePath = ".code Path"
             os.startfile(codePath)
 
-        elif 'email to harry' in query:
+        elif 'email to USER' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
