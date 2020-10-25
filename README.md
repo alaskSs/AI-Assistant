@@ -2,25 +2,22 @@
 This is basic of how the Google Assistant and Siri works (Python 3.7)
 This is a pygame based Flappy Bird game in python 3.7
 Module imported:
-  random(For generating random pipe)
-  sys (This will use for exiting the program)
-  pygame(For importing image and bliting it)
-  pygame.locals(For basic pygame imports)
+  import pyttsx3 (This will convert the text in to speech)
+  import speech_recognition as sr (This will convert the speech in to text)
+  import datetime 
+  import wikipedia (Through this you can search content from the wikipedia)
+  import webbrowser (This will help to open the urls)
+  import os 
+  import smtplib (For sending mail)
   
 Functions :
-  welcomeScreen (Shows background images on the screen with message on it 
-                 image used(background.png and message.png))
-  mainGame()(Main algo of the game)
-  isCollide(when bird collide it will show the welcome screen)
-  getRandomPipe(is for generating random pipe)
+  speak(This function will say as the argument)
+  wishMe(This will greet the user and tell him/her about it)
+  takeCommand(It takes microphone input from the user and returns string output)
+  sendemail(for sending mail)
   
-Gallery : 
-  /audio(wav files) and /sprites(images.png only)
-  You can customize it according to your choices 
-
-
-NOTE : The require files is already in the dir download the zip and open that dir in your desired IDE. 
-
+Note :  YOU HAVE TO ADD YOUR DIR IN THIS (.CODE PATH AND MUSIC DIR)
+ALSO ADD REAL E-MAIL AND PASWWORD FOR SEND MAIL
 STAR THIS IF YOU LIKE IT. xD 
 ENJOY !! 
 Bugs: Go To stackoverflow
