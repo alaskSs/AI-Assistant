@@ -1,6 +1,5 @@
 # AI-Assistant
-This is basic of how the Google Assistant and Siri works (Python 3.7)
-This is a pygame based Flappy Bird game in python 3.7
+This is the basis of how the Google Assistant and Siri works (Python 3.7)
 Module imported:
   import pyttsx3 (This will convert the text in to speech)
   import speech_recognition as sr (This will convert the speech in to text)
@@ -20,4 +19,4 @@ Note :  YOU HAVE TO ADD YOUR DIR IN THIS (.CODE PATH AND MUSIC DIR)
 ALSO ADD REAL E-MAIL AND PASWWORD FOR SEND MAIL
 STAR THIS IF YOU LIKE IT. xD 
 ENJOY !! 
-Bugs: Go To stackoverflow
+Bugs: Go To stackoverflow kiding!!
